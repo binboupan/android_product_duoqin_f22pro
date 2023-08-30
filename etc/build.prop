@@ -1,0 +1,38 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.model=F22 Pro
+ro.product.product.brand=QIN
+ro.product.product.name=full_AGN_1244RO_MT6769S_MX6432
+ro.product.product.device=AGN_1244RO_MT6769S_MX6432
+ro.product.board=AGN_1244RO_MT6769S_MX6432
+ro.product.product.manufacturer=DUOQIN
+ro.product.build.date=Wed Apr 26 17:41:36 CST 2023
+ro.product.build.date.utc=1682502096
+ro.product.build.fingerprint=QIN/full_AGN_1244RO_MT6769S_MX6432/AGN_1244RO_MT6769S_MX6432:12/SP1A.210812.016/1682502175:user/release-keys
+ro.product.build.id=SP1A.210812.016
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=1682502175
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=31
+ro.product.build.fingerprint=QIN/full_AGN_1244RO_MT6769S_MX6432/AGN_1244RO_MT6769S_MX6432:12/SP1A.210812.016/1682502175:user/release-keys
+ro.bootimage.build.fingerprint=QIN/full_AGN_1244RO_MT6769S_MX6432/AGN_1244RO_MT6769S_MX6432:12/SP1A.210812.016/1682502175:user/release-keys
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=31
+ro.build.characteristics=default
+ro.product.ab_ota_partitions=boot,system,product,vendor
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+persist.device_config.runtime_native.usap_pool_enabled=false
+Build.BRAND=MTK
+odm.agenew.custom_vibrator_mode=true
+odm.agenew.mmitest_vibrater_calibration=true
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
